@@ -1,5 +1,9 @@
 # Employee Management Dashboard
 
+# You can see Live application here
+
+- vocal-zabaione-81e761.netlify.app
+
 # Project Overview
 
 The Employee Management Dashboard is a React-based web application for managing employee records efficiently. It provides a user-friendly interface to add, edit, delete, and view employee details with real-time search and filtering. The dashboard also supports image uploads, status toggling, and printing employee data.
@@ -54,3 +58,9 @@ npm -v
    - npm install
 4. Run Application
    - npm start
+5. Make Prod ready Application
+   - num run build
+
+# Deployment
+
+- we have deployed this application into Netlify.com you can access our website here
