@@ -51,6 +51,6 @@ npm -v
    cd <your-repo-folder>
 
 3. Install Dependencies
-   npm install
+   - npm install
 4. Run Application
-   npm start
+   - npm start
