@@ -1,6 +1,5 @@
 import React, { useEffect, useLayoutEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
-//import EmployeeList from "./EmployeeList";
 import EmployeeForm from "./EmployeeForm";
 import NavBar from "./NavBar";
 import EmployeeDetails from "./EmployeeDetails";
@@ -18,8 +17,6 @@ const Dashboard = () => {
     .split("; ")
     .find((row) => row.startsWith("userToken="));
 
-  // 2. CRITICAL: Early Return pattern
-  // If no token, don't render the Dashboard HTML at all
   useEffect(() => {
     if (!hasToken) {
       navigate("/login");
