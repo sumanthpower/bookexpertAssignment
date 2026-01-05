@@ -1,0 +1,35 @@
+@plugin "daisyui";
+
+@media print {
+  /* Hide everything except the main content */
+  .print\:hidden {
+    display: none !important;
+  }
+
+  /* Reset layout for printing */
+  body,
+  html {
+    background: white !important;
+    color: black !important;
+    height: auto !important;
+  }
+
+  /* Ensure the table container doesn't scroll in PDF, but shows all rows */
+  .overflow-x-auto,
+  .overflow-y-auto {
+    overflow: visible !important;
+    max-height: none !important;
+  }
+
+  /* Force background colors for DaisyUI badges/toggles */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Remove page margins/headers/footers from browser defaults */
+  @page {
+    margin: 1cm;
+    size: auto;
+  }
+}

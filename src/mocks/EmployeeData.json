@@ -1,0 +1,182 @@
+[
+  {
+    "id": "EMP001",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP001",
+    "fullName": "Arjun Sharma",
+    "gender": "Male",
+    "dob": "1992-05-15",
+    "state": "Maharashtra",
+    "isActive": true
+  },
+  {
+    "id": "EMP002",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP002",
+    "fullName": "Priya Patel",
+    "gender": "Female",
+    "dob": "1995-11-22",
+    "state": "Gujarat",
+    "isActive": false
+  },
+  {
+    "id": "EMP003",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP003",
+    "fullName": "Rohan Das",
+    "gender": "Male",
+    "dob": "1988-08-10",
+    "state": "West Bengal",
+    "isActive": true
+  },
+  {
+    "id": "EMP004",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP004",
+    "fullName": "Ananya Iyer",
+    "gender": "Female",
+    "dob": "1994-02-28",
+    "state": "Tamil Nadu",
+    "isActive": true
+  },
+  {
+    "id": "EMP005",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP005",
+    "fullName": "Vikram Singh",
+    "gender": "Male",
+    "dob": "1990-12-05",
+    "state": "Punjab",
+    "isActive": false
+  },
+  {
+    "id": "EMP006",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP006",
+    "fullName": "Sanya Malhotra",
+    "gender": "Female",
+    "dob": "1993-07-14",
+    "state": "Delhi",
+    "isActive": true
+  },
+  {
+    "id": "EMP007",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP007",
+    "fullName": "Rahul Verma",
+    "gender": "Male",
+    "dob": "1985-03-25",
+    "state": "Uttar Pradesh",
+    "isActive": false
+  },
+  {
+    "id": "EMP008",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP008",
+    "fullName": "Kavita Reddy",
+    "gender": "Female",
+    "dob": "1991-09-12",
+    "state": "Telangana",
+    "isActive": true
+  },
+  {
+    "id": "EMP009",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP009",
+    "fullName": "Amitabh Bose",
+    "gender": "Male",
+    "dob": "1982-11-30",
+    "state": "Karnataka",
+    "isActive": true
+  },
+  {
+    "id": "EMP010",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP010",
+    "fullName": "Meera Nair",
+    "gender": "Female",
+    "dob": "1996-01-05",
+    "state": "Kerala",
+    "isActive": false
+  },
+  {
+    "id": "EMP011",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP011",
+    "fullName": "Siddharth Jain",
+    "gender": "Male",
+    "dob": "1989-06-20",
+    "state": "Rajasthan",
+    "isActive": true
+  },
+  {
+    "id": "EMP012",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP012",
+    "fullName": "Aditi Rao",
+    "gender": "Female",
+    "dob": "1994-04-18",
+    "state": "Maharashtra",
+    "isActive": true
+  },
+  {
+    "id": "EMP013",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP013",
+    "fullName": "Yuvraj Singh",
+    "gender": "Male",
+    "dob": "1987-12-12",
+    "state": "Haryana",
+    "isActive": false
+  },
+  {
+    "id": "EMP014",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP014",
+    "fullName": "Sneha Kulkarni",
+    "gender": "Female",
+    "dob": "1992-08-24",
+    "state": "Goa",
+    "isActive": true
+  },
+  {
+    "id": "EMP015",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP015",
+    "fullName": "Deepak Chawla",
+    "gender": "Male",
+    "dob": "1990-10-10",
+    "state": "Madhya Pradesh",
+    "isActive": false
+  },
+  {
+    "id": "EMP016",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP016",
+    "fullName": "Ishani Ghosh",
+    "gender": "Female",
+    "dob": "1995-02-14",
+    "state": "Assam",
+    "isActive": true
+  },
+  {
+    "id": "EMP017",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP017",
+    "fullName": "Manish Pandey",
+    "gender": "Male",
+    "dob": "1991-05-22",
+    "state": "Bihar",
+    "isActive": false
+  },
+  {
+    "id": "EMP018",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP018",
+    "fullName": "Tanvi Joshi",
+    "gender": "Female",
+    "dob": "1993-11-01",
+    "state": "Uttarakhand",
+    "isActive": true
+  },
+  {
+    "id": "EMP019",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP019",
+    "fullName": "Abhishek Roy",
+    "gender": "Male",
+    "dob": "1986-07-07",
+    "state": "Odisha",
+    "isActive": false
+  },
+  {
+    "id": "EMP020",
+    "profileImage": "https://i.pravatar.cc/150?u=EMP020",
+    "fullName": "Pooja Hegde",
+    "gender": "Female",
+    "dob": "1990-03-30",
+    "state": "Andhra Pradesh",
+    "isActive": true
+  }
+]
