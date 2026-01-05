@@ -44,13 +44,10 @@ const Dashboard = () => {
         {isMenuOpen && (
           <div className="drawer lg:drawer-open shadow-xl h-[90vh] print:hidden">
             <div className="drawer-content flex flex-col items-center justify-center">
-              {/* Page content here */}
               <label
                 htmlFor="my-drawer-3"
                 className="btn drawer-button lg:hidden"
-              >
-                Open drawer
-              </label>
+              ></label>
             </div>
             <div className="drawer-side">
               <label
