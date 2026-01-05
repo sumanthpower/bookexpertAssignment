@@ -3,6 +3,7 @@
 ## Live Demo
 
 - [🚀 View Live Application](https://vocal-zabaione-81e761.netlify.app)
+  <https://vocal-zabaione-81e761.netlify.app>
 
 # Project Overview
 
