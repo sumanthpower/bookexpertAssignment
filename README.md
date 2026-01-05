@@ -1,8 +1,8 @@
 # Employee Management Dashboard
 
-# You can see Live application here
+## Live Demo
 
-- vocal-zabaione-81e761.netlify.app
+- [🚀 View Live Application](https://vocal-zabaione-81e761.netlify.app)
 
 # Project Overview
 
