@@ -50,7 +50,6 @@ const EmployeeDetails = () => {
   useEffect(() => {
     setEmpArray(employees);
   }, [employees]);
-  // console.log(empArray);
   const changeActive = (emp) => {
     const filterData = empArray.map((empData) => {
       if (empData.id === emp.id) {
@@ -214,7 +213,6 @@ const EmployeeDetails = () => {
           </table>
         </div>
       )}
-      {/* 🔔 Delete Confirmation Modal */}
       {showConfirm && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-6 rounded-lg shadow-xl w-96">
@@ -253,7 +251,6 @@ const EmployeeDetails = () => {
           </div>
         </div>
       )}
-      {/* ✏️ Edit Employee Modal */}
       {isEditing && (
         <div className="fixed inset-0 bg-opacity-10 bg-green-500 flex items-center justify-center z-50">
           <EmployeeForm

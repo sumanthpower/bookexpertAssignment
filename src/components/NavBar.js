@@ -17,11 +17,9 @@ const NavBar = () => {
     document.cookie =
       "userToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 
-    // Optional: If you stored the email too, delete it as well
     document.cookie =
       "userEmail=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 
-    // Move to login
     navigate("/login");
   };
 

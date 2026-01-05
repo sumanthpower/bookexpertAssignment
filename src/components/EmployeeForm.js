@@ -18,8 +18,6 @@ const EmployeeForm = ({ mode = "add", initialData = null, onClose }) => {
     isActive: true,
     profileImage: "https://i.pravatar.cc/150?u=new",
   });
-
-  // ✅ Populate form in EDIT mode
   useEffect(() => {
     if (mode === "edit" && initialData) {
       setFormData(initialData);
@@ -132,9 +130,9 @@ const EmployeeForm = ({ mode = "add", initialData = null, onClose }) => {
             className="btn btn-ghost"
             onClick={() => {
               if (mode === "edit") {
-                onClose(); // close modal
+                onClose();
               } else {
-                dispatch(toggleDashBoard()); // go back to dashboard
+                dispatch(toggleDashBoard());
               }
             }}
           >

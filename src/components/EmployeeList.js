@@ -5,11 +5,8 @@ const EmployeeList = () => {
     <div className="form-container">
       <form className="modern-form">
         <h2 className="form-title">Employee Details</h2>
-
-        {/* Profile Image Section */}
         <div className="image-section">
           <div className="image-preview">
-            {/* Placeholder for preview */}
             <div className="placeholder-text">Upload Photo</div>
           </div>
           <input type="file" id="file-upload" className="hidden-input" />

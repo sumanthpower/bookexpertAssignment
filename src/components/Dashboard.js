@@ -30,8 +30,6 @@ const Dashboard = () => {
     window.print();
   };
 
-  // Early Return pattern
-
   return (
     <div className="w-full min-h-screen flex flex-col">
       <div className="print:hidden sticky top-0 z-50">
@@ -53,7 +51,6 @@ const Dashboard = () => {
                 className="drawer-overlay"
               ></label>
               <ul className="menu bg-base-200 min-h-full w-60 p-4">
-                {/* Sidebar content here */}
                 <li className="mb-4 mt-2">
                   <a
                     className="bg-slate-800 text-white rounded-3xl p-2 "
@@ -78,8 +75,6 @@ const Dashboard = () => {
 
         {!isDashBoardOpen && <EmployeeDetails />}
       </div>
-      {/* <EmployeeList /> */}
-      {/* <EmployeeForm /> */}
       <div className="print:hidden">
         <footer className="shadow-lg  footer sm:footer-horizontal bg-neutral text-neutral-content items-center justify-between p-4 flex w-[100%]">
           <aside className="grid-flow-col items-center flex">

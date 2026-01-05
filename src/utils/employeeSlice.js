@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-// Make sure this path matches your file structure
 import initialEmployeeData from "../mocks/EmployeeData.json";
 
 const employeeSlice = createSlice({
@@ -8,7 +7,7 @@ const employeeSlice = createSlice({
     isMenuOpen: true,
     isDashBoardOpen: false,
     searchTerm: "",
-    employees: initialEmployeeData, // Initialize with your 20 unique emps
+    employees: initialEmployeeData,
   },
   reducers: {
     toggleMenu: (state) => {
@@ -22,10 +21,9 @@ const employeeSlice = createSlice({
     },
 
     addEmployee: (state, action) => {
-      state.employees.unshift(action.payload); // unshift adds to the top of the list
+      state.employees.unshift(action.payload);
     },
 
-    // Deletes an employee by filtering out their ID
     deleteEmployee: (state, action) => {
       console.log("triggeredDelete");
       state.employees = state.employees.filter(
@@ -33,7 +31,6 @@ const employeeSlice = createSlice({
       );
     },
 
-    // Toggles the isActive boolean for a specific employee
     toggleStatus: (state, action) => {
       const employee = state.employees.find((emp) => emp.id === action.payload);
       if (employee) {
